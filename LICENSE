@@ -1,21 +1,12 @@
-MIT License
-
-Copyright (c) 2024 Azure Samples
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Developed a multi-agent AI banking assistant using Spring Boot, LangGraph4j, and Azure OpenAI, orchestrating
+Supervisor, Account, Transaction, and Payment Agents for intelligent request routing and task delegation.
+• Architected a scalable microservices ecosystem with Spring Cloud Gateway as a unified entry point, Eureka for ser
+vice discovery, Spring Cloud LoadBalancer for request distribution, and Config Server for centralized configuration
+management.
+• Strengthened system resilience by integrating Resilience4j circuit breakers, retries, and timeouts, ensuring graceful
+degradation and fault isolation across inter-service communication.
+• Leveraged Redis for caching and shared session/conversation state, and Apache Kafka for asynchronous, event
+driven communication across payment and transaction workflows.
+• Integrated MCP to connect AI agents with core banking services, Azure Document Intelligence for automated
+invoice data extraction, and a RAG pipeline for context-aware, grounded responses; containerized all services with
+Docker for scalable deployment.
