@@ -6,6 +6,7 @@ languages:
 - bicep
 - typescript
 - html
+- CSS
 products:
 - ai-services 
 - azure
